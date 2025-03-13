@@ -1,8 +1,12 @@
 @media screen and (min-width: 768px) {
+
     nav ul {
+        display: flex;
+        flex-direction: row;
         flex-direction: row;
         justify-content: center;
     }
+
 
     nav ul li {
         border-bottom: none;
@@ -19,5 +23,9 @@
     h1 {
         grid-column: 1 / -1;
         text-align: center;
+    }
+
+    #menuButton {
+        display: none;
     }
 }

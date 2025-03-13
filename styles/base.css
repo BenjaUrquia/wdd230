@@ -23,6 +23,20 @@ header img {
     margin-right: 1rem;
 }
 
+#menuButton {
+    position: block;
+    font-size: 2rem;
+    background: none;
+    color: white;
+    margin-left: auto;
+}
+
+#mode {
+    position: block;
+    margin-left: auto;
+    cursor: pointer;
+}
+
 nav {
     background-color: #183149;
 }
@@ -31,8 +45,13 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: none;
     flex-direction: column;
+    text-align: center;
+}
+
+nav ul.open {
+    display: flex;
 }
 
 nav ul li {
@@ -60,6 +79,7 @@ main {
     padding: 1rem;
 }
 
+.card2,
 .card {
     background-color: white;
     padding: 1rem;
