@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    #menuButton {
+        display: block;
+        font-size: 2rem;
+        background: none;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .navMenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #003366;
+        text-align: center;
+    }
+
+    .navMenu.open {
+        display: flex;
+    }
+
+    .navMenu ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navMenu ul li {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navMenu ul li a {
+        display: block;
+        padding: 15px;
+        width: 100%;
+    }
+}

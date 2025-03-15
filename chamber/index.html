@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Benjamin Urquia - WDD 230 - Web Frontend Development</title>
+
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Benjamin Urquia - Chamber of Commerce Project">
+    <meta name="author" content="Benjamin Urquia">
+
+
+    <!-- META Tags -->
+    <meta property="og:title" content="Benjamin Urquia - Chamber of Commerce Project">
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://media.istockphoto.com/id/1365634396/photo/smiling-businesswoman-greeting-a-colleague-on-a-meeting.jpg?s=612x612&w=0&k=20&c=nRSBx4L8Y5RfvPHpTTI_qSpb-JPskqg_E_0-SQYetYI=">
+    <meta property="og:url" content="https://benjaurquia.github.io/wdd230/chamber/">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="scripts/index.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Rosario Chamber of Commerce</h1>
+        <button id="menuButton" aria-label="Menu">≡</button>
+    </header>
+
+    <nav class="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <h2>Welcome to Our Business Community</h2>
+            <p>The Rosario Chamber of Commerce is dedicated to fostering economic growth and supporting businesses in
+                our city. Join us to connect, learn, and thrive.</p>
+            <img src="images/hero.jpg" alt="Community Image">
+        </section>
+
+        <section id="call-to-action">
+            <h2>Join the Chamber</h2>
+            <p>Becoming a member of the Chamber of Commerce gives you access to networking events, business resources,
+                and promotional opportunities.</p>
+            <ul>
+                <li>Expand your professional network</li>
+                <li>Attend exclusive business events</li>
+                <li>Gain visibility in the local market</li>
+            </ul>
+            <a href="join.html" class="btn">Join Now</a>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>Local Business Networking</h3>
+                <p><strong>Date:</strong> March 20, 2025 | 6:00 PM</p>
+                <p><strong>Location:</strong> Rosario Convention Center</p>
+                <p>Join fellow entrepreneurs and business owners for an evening of networking, collaboration, and growth
+                    opportunities.</p>
+            </article>
+            <article>
+                <h3>Marketing Strategies for Small Businesses</h3>
+                <p><strong>Date:</strong> April 10, 2025 | 3:00 PM</p>
+                <p><strong>Location:</strong> Chamber of Commerce Auditorium</p>
+                <p>Learn effective marketing techniques from industry experts to grow your brand and increase your
+                    customer base.</p>
+            </article>
+        </section>
+
+        <section id="weather">
+            <h2>Current Weather</h2>
+            <nav id="weatherNav">
+                <p><strong>Condition:</strong> Sunny</p>
+                <p><strong>Temperature:</strong> 25°C</p>
+                <p><strong>Humidity:</strong> 60%</p>
+                <p><strong>Wind Speed:</strong> 10 km/h</p>
+            </nav>
+        </section>
+
+        <section id="spotlights">
+            <h2>Business Spotlights</h2>
+            <article>
+                <h3>Local Cafe</h3>
+                <p>Experience the best coffee in town! Our featured cafe offers a cozy ambiance and top-quality brews.
+                </p>
+                <p><strong>Location:</strong> 123 Main St, Rosario</p>
+                <p><a href="#" class="btn2">Learn More</a></p>
+            </article>
+            <article>
+                <h3>Tech Solutions</h3>
+                <p>Providing cutting-edge technology solutions for small businesses. Special discounts for Chamber
+                    members!</p>
+                <p><strong>Contact:</strong> info@techsolutions.com</p>
+                <p><a href="#" class="btn2">Visit Website</a></p>
+            </article>
+            <article>
+                <h3>Green Earth Landscaping</h3>
+                <p>Transform your outdoor space with our eco-friendly landscaping services. Free consultation for new
+                    clients.</p>
+                <p><strong>Phone:</strong> (0341) 555-6789</p>
+                <p><a href="#" class="btn2">Get a Quote</a></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Benjamin Urquia, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
