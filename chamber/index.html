@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Benjamin Urquia - WDD 230 - Web Frontend Development</title>
+    <title>Benjamin Urquia - WDD 230 - Project - The Chamber of Commerce Home Page</title>
 
     <meta name="description"
         content="WDD 230 - Web Frontend Development - Benjamin Urquia - Chamber of Commerce Project">
@@ -14,7 +14,7 @@
 
     <!-- META Tags -->
     <meta property="og:title" content="Benjamin Urquia - Chamber of Commerce Project">
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website">
     <meta property="og:image"
         content="https://media.istockphoto.com/id/1365634396/photo/smiling-businesswoman-greeting-a-colleague-on-a-meeting.jpg?s=612x612&w=0&k=20&c=nRSBx4L8Y5RfvPHpTTI_qSpb-JPskqg_E_0-SQYetYI=">
     <meta property="og:url" content="https://benjaurquia.github.io/wdd230/chamber/">
@@ -50,7 +50,10 @@
             <h2>Welcome to Our Business Community</h2>
             <p>The Rosario Chamber of Commerce is dedicated to fostering economic growth and supporting businesses in
                 our city. Join us to connect, learn, and thrive.</p>
-            <img src="images/hero.jpg" alt="Community Image">
+            <picture>
+                <source srcset="images/hero-large.jpg" media="(min-width: 768px)">
+                <img src="images/hero-small.jpg" alt="Community Image">
+            </picture>
         </section>
 
         <section id="call-to-action">

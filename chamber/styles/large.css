@@ -60,6 +60,11 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+nav ul li a:hover {
+    background-color: #3c5d7a;
+    border-radius: 10px;
+}
+
 main {
     padding: 1rem;
 }
