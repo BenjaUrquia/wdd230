@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Benjamin Urquia - WDD 230 - Project - W03 Prepare: Learning Activities</title>
+
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Benjamin Urquia - W03 Prepare: Learning Activities">
+    <meta name="author" content="Benjamin Urquia">
+
+    <link rel="stylesheet" href="styles/responsive-images.css">
+    <script src="scripts/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Responsive Images: srcset</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt="Test Images" width="1500" height="750">>
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Benjamin Urquia, Argentina - wdd230</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
