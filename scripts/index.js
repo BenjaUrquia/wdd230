@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-
     // Visitor Count
     const visitCounter = document.getElementById("visitCounter");
     let visits = localStorage.getItem("pageVisits");
