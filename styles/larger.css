@@ -3,7 +3,6 @@
     nav ul {
         display: flex;
         flex-direction: row;
-        flex-direction: row;
         justify-content: center;
     }
 
@@ -27,5 +26,11 @@
 
     #menuButton {
         display: none;
+    }
+
+    picture {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: center;
     }
 }

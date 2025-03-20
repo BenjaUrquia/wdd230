@@ -33,7 +33,7 @@
 <body>
 
     <header>
-        <img src="images/profile.jpg" alt="Profile Photo">
+        <img src="images/profile.webp" alt="Profile Photo" loading="lazy">
         <span>Benjamin Urquia</span>
         <div id="mode">
             🌙
@@ -51,19 +51,26 @@
     </nav>
 
     <main>
+        <picture>
+            <source srcset="images/small-hero.webp" media="(max-width: 768px)">
+            <source srcset="images/large-hero.webp" media="(min-width: 769px)">
+            <img src="images/small-hero.webp" alt="Buenos Aires Temple" class="hero-img" loading="lazy">
+        </picture>
+
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
             <ul>
-                <li><a>Week 01:<a href="week01/chamber-site-plan.html">Layout</a> | <a href="">Media Query</a> | <a
-                            href="">JS Pen</a></a></li>
-                <li><a>Week 02:<a href="">Layout</a> | <a href="">Media Query</a> | <a
-                            href="https://codepen.io/BenjaUrquia/pen/zxYEaPw">JS Pen</a></a></li>
-                <li><a>Week 03:Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="">Media Query</a> |
-                        <a href="">JS Pen</a></a></li>
-                <li><a>Week 04:<a href="">Layout</a> | <a href="">Media Query</a> | <a href="">JS Pen</a></a></li>
-                <li><a>Week 05:<a href="">Layout</a> | <a href="">Media Query</a> | <a href="">JS Pen</a></a></li>
-                <li><a>Week 06:<a href="">Layout</a> | <a href="">Media Query</a> | <a href="">JS Pen</a></a></li>
+                <li><a>Week 01:<a href="week01/chamber-site-plan.html"> Layout</a>
+                <li><a>Week 02:<a href="/week02/design.html"> Design</a> | <a
+                            href="https://codepen.io/BenjaUrquia/pen/zxYEaPw">JS Pen</a> | <a
+                            href="week02/bom.html">BOM</a></li>
+                <li><a>Week 03:<a href="week03/images/landscape.webp"> WebP</a> | <a href="week03/lazyload.html">Lazy
+                            Load</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a
+                            href="week03/bom.html"> BOM W03</li>
+                <li><a>Week 04:
+                <li><a>Week 05:
+                <li><a>Week 06:
             </ul>
         </section>
         <section class="card2">
@@ -71,8 +78,19 @@
             <ul>
                 <li><a href="">PLACEHOLDER</a></li>
             </ul>
+            <p>Page visits: <span id="visitCounter">0</span></p>
         </section>
+
+
+
     </main>
+    <section class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174380.53896743956!2d-60.76583008406268!3d-32.95870239374167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab1a7e2d9c19%3A0x6d5062179a4c37b!2sRosario%2C%20Santa%20Fe%2C%20Argentina!5e0!3m2!1sen!2sar!4v1710444000000!5m2!1sen!2sar"
+            width="100%" height="400" style="border:0;" loading="lazy">
+        </iframe>
+    </section>
+
 
     <footer>
         <p>&copy; <span id="currentYear"></span> Benjamin Urquia, Argentina</p>

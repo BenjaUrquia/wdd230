@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-
+    // Footer Last Modified
     document.getElementById("currentYear").textContent = new Date().getFullYear();
     document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
 
 
-
+    //Hamburguer Menu
     const menuButton = document.getElementById("menuButton");
     const navList = document.querySelector("nav ul");
 
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-
+    // Dark Mode
     const modeButton = document.querySelector("#mode");
     const main = document.querySelector("main");
     const header = document.querySelector("header");
@@ -47,5 +47,20 @@ document.addEventListener("DOMContentLoaded", function () {
             modeButton.textContent = "🌙";
         }
     });
+
+
+    // Visitor Count
+    const visitCounter = document.getElementById("visitCounter");
+    let visits = localStorage.getItem("pageVisits");
+
+    if (!visits) {
+        visits = 0;
+    } else {
+        visits = parseInt(visits);
+    }
+
+    visits++;
+    localStorage.setItem("pageVisits", visits);
+    visitCounter.textContent = visits;
 
 });
