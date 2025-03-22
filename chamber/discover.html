@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Benjamin Urquia - WDD 230 - Project - The Chamber of Commerce Discover Page</title>
+
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Benjamin Urquia - Chamber of Commerce Project">
+    <meta name="author" content="Benjamin Urquia">
+
+    <!-- META Tags -->
+    <meta property="og:title" content="Benjamin Urquia - Chamber of Commerce Project">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://media.istockphoto.com/id/1365634396/photo/smiling-businesswoman-greeting-a-colleague-on-a-meeting.jpg?s=612x612&w=0&k=20&c=nRSBx4L8Y5RfvPHpTTI_qSpb-JPskqg_E_0-SQYetYI=">
+    <meta property="og:url" content="https://benjaurquia.github.io/wdd230/chamber/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="scripts/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Rosario Chamber of Commerce</h1>
+        <button id="menuButton" aria-label="Menu">≡</button>
+    </header>
+
+    <nav class="navMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="grid-container">
+            <aside class="sidebar">
+                <section class="visitMessage">
+                    <p id="visitMessage"></p>
+                </section>
+                <h2>Visitor Info</h2>
+                <article>
+                    <h3>Upcoming Events</h3>
+                    <ul>
+                        <li>Event 1: Business Networking - March 25</li>
+                        <li>Event 2: Marketing Strategies - April 5</li>
+                        <li>Event 3: Community Outreach - April 15</li>
+                    </ul>
+                </article>
+
+
+                <article>
+                    <h3>Local Business Networking</h3>
+                    <p><strong>Date:</strong> March 22, 2025 | 6:00 PM</p>
+                    <p><strong>Location:</strong> Rosario Stock Exchange</p>
+                    <p>Join fellow entrepreneurs and business owners for an evening of networking, collaboration, and
+                        growth opportunities.</p>
+                </article>
+            </aside>
+
+            <section class="gallery">
+                <h2>Rosario Local Attractions</h2>
+                <figure>
+                    <img src="images/commerce.webp" alt="Attraction 1" loading="lazy">
+                    <figcaption>Rosario Stock Exchange</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/monument.webp" alt="Attraction 2" loading="lazy">
+                    <figcaption>Argentina Flag Monument</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/mastiles.webp" alt="Attraction 3" loading="lazy">
+                    <figcaption>"The Masts" Square</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/museum.webp" alt="Attraction 4" loading="lazy">
+                    <figcaption>San Lorenzo's Convent Museum</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/plaza.webp" alt="Attraction 5" loading="lazy">
+                    <figcaption>Rosario Center Square</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/baigorria.webp" alt="Attraction 6" loading="lazy">
+                    <figcaption>Baigorria Nature Reserve</figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Benjamin Urquia, Argentina - wdd230</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

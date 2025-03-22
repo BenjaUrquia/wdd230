@@ -1,11 +1,19 @@
 @media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
     #menuButton {
         display: block;
+        margin: 1rem 0;
         font-size: 2rem;
         background: none;
-        color: white;
         border: none;
-        cursor: pointer;
+        color: white;
         padding: 10px;
     }
 
@@ -37,5 +45,9 @@
         display: block;
         padding: 15px;
         width: 100%;
+    }
+
+    .navMenu.active {
+        display: block;
     }
 }
