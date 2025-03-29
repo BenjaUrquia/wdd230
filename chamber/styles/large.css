@@ -183,3 +183,126 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* JOIN PAGE */
+
+#joinMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* Join Section */
+#joinSection {
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    background-color: #eee;
+    border: 1px solid gray;
+}
+
+#joinSection h2 {
+    color: #003366;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#joinSection div {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.np-level {
+    border: 1px solid #003366;
+}
+
+.bronze-level {
+    border: 4px solid #be8301;
+}
+
+.silver-level {
+    border: 4px solid silver;
+}
+
+.gold-level {
+    border: 4px solid rgb(255, 196, 0);
+}
+
+#joinSection div h3 {
+    color: #003366;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+#joinSection div p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+
+/* Form */
+fieldset {
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+legend {
+    padding: .3rem;
+    color: #003366;
+    font-size: large;
+}
+
+label {
+    display: block;
+    padding: .5rem;
+    font-size: large;
+}
+
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    display: block;
+    min-height: 44px;
+    border-radius: 5px;
+    background-color: #eee;
+    width: 100%;
+    max-width: 500px;
+}
+
+#description {
+    min-height: 100px;
+}
+
+fieldset div {
+    font-size: large;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    color: #003366;
+}
+
+input[type="submit"] {
+    display: flex;
+    justify-self: center;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: #ffd739;
+    margin-top: 1rem;
+}
+
+input:required {
+    border-right: solid 8px red;
+}
+
+input:required:valid {
+    border-right: solid 8px green;
+}
+
+/*Thank you Page*/
+#thankyou {
+    text-align: center;
+}

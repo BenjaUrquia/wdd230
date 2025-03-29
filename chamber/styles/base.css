@@ -50,4 +50,8 @@
     .navMenu.active {
         display: block;
     }
+
+    #joinMain {
+        display: block;
+    }
 }
