@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>W04: Team Activity - Form </title>
+
+    <meta name="description" content="W04: Team Activity - Form">
+    <meta name="author" content="Benjamin Urquia">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/form.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <img src="images/profile.webp" alt="Profile Photo" loading="lazy">
+        <span>Benjamin Urquia</span>
+        <div id="mode">
+            🌙
+        </div>
+        <button id="menuButton" type="button" aria-label="Menu">≡</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <form id="userForm" method="get" action="record.html" onsubmit="return validateForm()">
+            <fieldset>
+                <legend>Register</legend>
+                <label for="username">Username:<input type="text" id="username" name="username" required></label>
+
+                <label for="password">Password:<input type="password" id="password" name="password" required></label>
+
+                <label for="password2">Confirm Password:<input type="password" id="password2" name="password2"
+                        required></label>
+                <span id="passwordError" class="error"></span>
+
+                <label for="email">Email:<input type="email" id="email" name="email" required
+                        title="Please enter a valid email address"></label>
+
+
+                <label for="pageRating">Page Rating:<input type="range" id="pageRating" name="pageRating" min="1"
+                        max="10" step="1" oninput="updateRating()" required></label>
+                <span id="ratingValue">5</span>
+            </fieldset>
+            <input type="submit" value="Register Now"></input>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Benjamin Urquia, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
