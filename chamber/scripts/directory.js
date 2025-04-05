@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const url = "https://benjaurquia.github.io/wdd230/chamber/data/members.json";
     const main = document.querySelector("main");
 
-    // Create toggle buttons
     const gridBtn = document.createElement("button");
     gridBtn.textContent = "Grid View";
     gridBtn.id = "gridBtn";
@@ -24,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     main.before(gridBtn, listBtn);
 
-    // Add event listeners to toggle classes
     gridBtn.addEventListener("click", () => {
         main.classList.add("grid");
         main.classList.remove("list");
@@ -50,7 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const card = document.createElement("section");
             card.classList.add("member-card");
 
-            const name = document.createElement("h3");
+            const name = document.createElement("a");
+            name.href = member.urls;
+            name.target = "_blank";
             name.textContent = member.name;
 
             const address = document.createElement("p");
@@ -59,20 +59,16 @@ document.addEventListener("DOMContentLoaded", function () {
             const phone = document.createElement("p");
             phone.textContent = member.tel;
 
-            const website = document.createElement("a");
-            website.href = member.urls;
-            website.target = "_blank";
-            website.textContent = "Visit Website";
-
             const icon = document.createElement("img");
-            icon.src = `images/${member["icon-file"]}`;
+            icon.className = "logo";
+            icon.src = `images/${member["icon-file"].replace(/\.\w+$/, '.webp')}`;
             icon.alt = `${member.name} logo`;
             icon.loading = "lazy";
 
             const level = document.createElement("p");
             level.textContent = `Membership Level: ${member["member-level"]}`;
 
-            card.append(icon, name, address, phone, website, level);
+            card.append(name, icon, address, phone, level);
             main.appendChild(card);
         });
     }

@@ -306,3 +306,99 @@ input:required:valid {
 #thankyou {
     text-align: center;
 }
+
+main.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+main.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main.grid .member-card {
+    border: 2px solid #003366;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+}
+
+main.list .member-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+    border: 2px solid #003366;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    text-align: left;
+}
+
+main.list .member-card img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+main.list .member-card a {
+    font-size: x-large;
+    margin: 0;
+    background-color: transparent;
+    color: #003366;
+}
+
+main.list .member-card p {
+    margin: 0.2rem 0;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.member-card a {
+    font-size: xx-large;
+    padding: 1rem;
+    text-decoration-line: none;
+    color: gold;
+    background-color: #003366;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.member-card img {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+    align-self: center;
+    border-radius: 500px;
+}
+
+.member-card p {
+    font-size: larger;
+    margin: .8rem;
+}
+
+#gridBtn,
+#listBtn {
+    background-color: #003366;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    margin: 1rem 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#gridBtn:hover,
+#listBtn:hover {
+    background-color: #2a4f7c;
+}
