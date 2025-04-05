@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "TechNova Solutions",
+            "adress": "123 Innovation Blvd, Rosario, Santa Fe",
+            "tel": "+54 341 456-7890",
+            "urls": "https://www.technova.com.ar",
+            "icon-file": "technova.png",
+            "member-level": "Gold"
+        },
+        {
+            "name": "Delicias Gourmet",
+            "adress": "456 Sabores St, Rosario, Santa Fe",
+            "tel": "+54 341 321-4567",
+            "urls": "https://www.deliciasgourmet.com",
+            "icon-file": "delicias.png",
+            "member-level": "Silver"
+        },
+        {
+            "name": "EcoVerde Construcciones",
+            "adress": "789 Sustentable Ave, Rosario, Santa Fe",
+            "tel": "+54 341 234-9876",
+            "urls": "https://www.ecoverde.com",
+            "icon-file": "ecoverde.png",
+            "member-level": "Bronze"
+        },
+        {
+            "name": "Estudio Jurídico Ávila",
+            "adress": "101 Legal Lane, Rosario, Santa Fe",
+            "tel": "+54 341 987-1234",
+            "urls": "https://www.estudioavila.com.ar",
+            "icon-file": "avila.png",
+            "member-level": "NP"
+        },
+        {
+            "name": "Gym PowerUp",
+            "adress": "202 Fitness St, Rosario, Santa Fe",
+            "tel": "+54 341 654-3210",
+            "urls": "https://www.powerupgym.com",
+            "icon-file": "powerup.png",
+            "member-level": "Silver"
+        },
+        {
+            "name": "AgroCampo S.A.",
+            "adress": "303 Rural Rd, Rosario, Santa Fe",
+            "tel": "+54 341 876-5432",
+            "urls": "https://www.agrocampo.com",
+            "icon-file": "agrocampo.png",
+            "member-level": "Gold"
+        },
+        {
+            "name": "Estética BelleVie",
+            "adress": "404 Wellness Blvd, Rosario, Santa Fe",
+            "tel": "+54 341 765-4321",
+            "urls": "https://www.bellevieestetica.com",
+            "icon-file": "bellevie.png",
+            "member-level": "Bronze"
+        }
+    ]
+}
