@@ -1,0 +1,23 @@
+{
+    "familyName": "Smith",
+    "moveDate": "2020-05-30",
+    "familyMembers": 3,
+    "visited": false,
+    "members": [
+        {
+            "name": "John",
+            "gender": "Male",
+            "birthdate": "1980-07-24"
+        },
+        {
+            "name": "Jane",
+            "gender": "Female",
+            "birthdate": "1982-01-08"
+        },
+        {
+            "name": "Walter",
+            "gender": "Male",
+            "birthdate": "2007-10-10"
+        }
+    ]
+}

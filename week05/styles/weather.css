@@ -1,0 +1,21 @@
+:root {
+    font-size: x-large;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    border-bottom: 3px solid navy;
+    padding-bottom: 1rem;
+}
+
+main {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    justify-self: center;
+    margin: 1rem;
+}

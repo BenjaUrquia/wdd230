@@ -1,0 +1,85 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Layout"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "https://codepen.io/BenjaUrquia/pen/zxYEaPw",
+                    "title": "JS Pen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "BOM W03"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url": "https://codepen.io/BenjaUrquia/pen/xbxaOVe",
+                    "title": "CSS CodePen"
+                },
+                {
+                    "url": "images/css-activity.webp",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "week04/tablebuilding.html",
+                    "title": "Table Activity"
+                },
+                {
+                    "url": "week04/",
+                    "title": "HTML Forms"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url": "https://codepen.io/BenjaUrquia/pen/pvoQZPe?editors=1100",
+                    "title": "CSS CodePen"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                }
+            ]
+        }
+    ]
+}

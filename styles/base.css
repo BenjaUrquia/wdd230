@@ -100,13 +100,30 @@ picture {
     padding: 0;
 }
 
-.card2 p {
+.visits {
     font-size: 1.2rem;
-    color: black;
     background-color: lightgray;
     padding: 0.5rem;
     border-radius: 5px;
     text-align: center;
+}
+
+.weather-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: lightgray;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.separator {
+    margin: 0 0.5rem;
+}
+
+#captionDesc::first-letter {
+    text-transform: uppercase;
 }
 
 .map-container {
