@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+    // Weather
     const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-33&lon=-60.7&units=imperial&appid=b090fd32a362009d6f610d02d94bed33';
     const currentTemp = document.querySelector('#current-temp');
     const weatherIcon = document.querySelector('#weather-icon');
